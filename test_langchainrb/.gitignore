@@ -1,0 +1,71 @@
+# ────────────────
+# Archivos del sistema
+# ────────────────
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+
+# ────────────────
+# Ruby / Bundler
+# ────────────────
+*.gem
+*.rbc
+/.bundle
+/vendor/bundle
+/vendor/cache
+/vendor/ruby
+
+# ────────────────
+# Rails
+# ────────────────
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system
+/public/uploads
+/storage/*
+!/storage/.keep
+
+# ────────────────
+# Byebug / Pry
+# ────────────────
+.byebug_history
+.pry_history
+
+# ────────────────
+# Node.js (si usas webpacker / vite)
+# ────────────────
+/node_modules
+/yarn-error.log
+/package-lock.json
+yarn-debug.log*
+.yarn-integrity
+
+# ────────────────
+# Coverage / Test
+# ────────────────
+/coverage/
+/spec/examples.txt
+/spec/tmp
+/test/tmp
+/test/version_tmp
+/test/dummy/tmp
+/test/dummy/log
+
+# ────────────────
+# EditorConfig / IDE
+# ────────────────
+.vscode/
+/.idea/
+/*.iml
+
+# ────────────────
+# Configuración temporal
+# ────────────────
+.env
+.env.*
